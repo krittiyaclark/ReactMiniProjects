@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/krittiyaclark/ReactMiniProjects/static/css/main.2c818765.chunk.css",
+    "main.js": "/krittiyaclark/ReactMiniProjects/static/js/main.4283c446.chunk.js",
+    "main.js.map": "/krittiyaclark/ReactMiniProjects/static/js/main.4283c446.chunk.js.map",
+    "runtime-main.js": "/krittiyaclark/ReactMiniProjects/static/js/runtime-main.7f1ae876.js",
+    "runtime-main.js.map": "/krittiyaclark/ReactMiniProjects/static/js/runtime-main.7f1ae876.js.map",
+    "static/js/2.c793f56a.chunk.js": "/krittiyaclark/ReactMiniProjects/static/js/2.c793f56a.chunk.js",
+    "static/js/2.c793f56a.chunk.js.map": "/krittiyaclark/ReactMiniProjects/static/js/2.c793f56a.chunk.js.map",
+    "index.html": "/krittiyaclark/ReactMiniProjects/index.html",
+    "precache-manifest.0cd883070b4abf8df13e0771aaa17980.js": "/krittiyaclark/ReactMiniProjects/precache-manifest.0cd883070b4abf8df13e0771aaa17980.js",
+    "service-worker.js": "/krittiyaclark/ReactMiniProjects/service-worker.js",
+    "static/css/main.2c818765.chunk.css.map": "/krittiyaclark/ReactMiniProjects/static/css/main.2c818765.chunk.css.map",
+    "static/js/2.c793f56a.chunk.js.LICENSE.txt": "/krittiyaclark/ReactMiniProjects/static/js/2.c793f56a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7f1ae876.js",
+    "static/js/2.c793f56a.chunk.js",
+    "static/css/main.2c818765.chunk.css",
+    "static/js/main.4283c446.chunk.js"
+  ]
+}
