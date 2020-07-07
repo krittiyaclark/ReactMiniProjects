@@ -11,7 +11,7 @@ class App extends Component {
 		items: [],
 		id: uuidv4(),
 		item: '',
-		editItems: false,
+		editItem: false,
 	}
 
 	handleChange = (event) => {
@@ -34,7 +34,7 @@ class App extends Component {
 				items: updatedItems,
 				id: uuidv4(),
 				item: '',
-				editItems: false,
+				editItem: false,
 			},
 			() => console.log(this.state)
 		)
