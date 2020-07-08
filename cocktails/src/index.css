@@ -176,6 +176,83 @@ Cocktails List
 
 /* 
 ====== 
+Cocktail drink 
+======
+*/
+
+.cocktail-section {
+	text-align: center;
+}
+.drink {
+	width: var(--smallWidth);
+	max-width: var(--fullWidth);
+	margin: 0 auto;
+	text-align: left;
+}
+.drink img {
+	border-radius: var(--mainBorderRadius);
+}
+.drink p {
+	font-weight: bold;
+	text-transform: capitalize;
+}
+.drink span {
+	margin-right: 0.5rem;
+}
+.drink-info {
+	padding-top: 2rem;
+}
+@media screen and (min-width: 992px) {
+	.drink {
+		display: grid;
+		grid-template-columns: 2fr 3fr;
+		gap: 3rem;
+		align-items: center;
+	}
+	.drink-info {
+		padding-top: 0;
+	}
+}
+
+/* 
+====== 
+Cocktail 
+======
+*/
+
+.cocktail {
+	background: var(--mainWhite);
+	margin-bottom: 2rem;
+	box-shadow: var(--lightShadow);
+	transition: var(--mainTransition);
+	display: grid;
+	grid-template-rows: auto 1fr;
+	border-radius: var(--mainBorderRadius);
+}
+.cocktail:hover {
+	box-shadow: var(--darkShadow);
+}
+.cocktail img {
+	border-top-left-radius: var(--mainBorderRadius);
+	border-top-right-radius: var(--mainBorderRadius);
+}
+.cocktail-footer {
+	padding: 1.5rem;
+}
+.cocktail-footer h3,
+.cocktail-footer h4,
+.cocktail-footer p {
+	margin-bottom: 0.3rem;
+}
+.cocktail-footer h3 {
+	font-size: 2.2rem;
+}
+.cocktail-footer p {
+	color: var(--darkGrey);
+	margin-bottom: 0.5rem;
+}
+/* 
+====== 
 Error
 ======
 */
