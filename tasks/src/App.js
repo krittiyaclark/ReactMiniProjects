@@ -1,11 +1,12 @@
 import { useEffect, useState } from "react";
 
-import Headers from "./components/Header";
+import Header from "./components/Header";
 import "./App.css";
 import Tasks from "./components/Tasks";
 import AddTask from "./components/AddTask";
 
 function App() {
+  const [showAddTask, setShowAddTask] = useState(false);
   const [tasks, setTasks] = useState([]);
 
   useEffect(() => {
@@ -59,9 +60,16 @@ function App() {
 
   return (
     <div className="container">
-      <Headers>Task</Headers>
-      <Tasks tasks={tasks} onDelete={deleteTask} onToggle={toggleReminder} />
-      <AddTask onAdd={addTask} />
+      <Header
+        onAdd={() => setShowAddTask(!showAddTask)}
+        showAdd={showAddTask}
+      />
+      {showAddTask && <AddTask onAdd={addTask} />}
+      {tasks.length > 0 ? (
+        <Tasks tasks={tasks} onDelete={deleteTask} onToggle={toggleReminder} />
+      ) : (
+        "No Tasks To Show"
+      )}
     </div>
   );
 }
